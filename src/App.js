@@ -1,6 +1,7 @@
 
 import Home from './componenets/Home';
 import NavBar from './componenets/NavBar';
+import SocialLinks from './componenets/SocialLinks';
 
 
 function App() {
@@ -8,6 +9,8 @@ function App() {
     <div>
       <NavBar />
       <Home />
+
+      <SocialLinks />
     </div>
   );
 }
