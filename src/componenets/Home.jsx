@@ -22,7 +22,8 @@ const Home = () => {
           </div>
         </div>
         <div>
-          <img src={heroImage} alt="my profile" className='rounded-2xl mx-auto w-2/3 md:w-full' />
+          <img src={heroImage} alt="my profile" className='rounded-2xl mx-auto mt-5 w-2/3' /> 
+          {/* md:w-auto set the image with with this if not alinged */}
         </div>
       </div>
     </div>
